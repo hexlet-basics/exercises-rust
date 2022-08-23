@@ -6,4 +6,4 @@ WORKDIR /exercises-rust
 
 COPY . .
 
-ENV PATH /exercises-rust/bin:$PATH
+ENV PATH /exercises-rust/bin:/root/.cargo/bin/:$PATH

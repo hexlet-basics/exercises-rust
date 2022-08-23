@@ -1,4 +1,12 @@
-#[test]
-fn test_add() {
-    assert_eq!(adder::add(3, 2), 5);
+mod index;
+
+#[cfg(test)]
+mod tests {
+    use index::greet;
+
+    #[test]
+    fn test_greet() {
+        assert_eq!(greet(), "Hello, World!");
+    }
+
 }
