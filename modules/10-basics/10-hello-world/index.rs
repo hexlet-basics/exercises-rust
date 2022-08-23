@@ -3,3 +3,8 @@ pub fn greet() -> String {
     String::from("Hello, World!")
     //END
 }
+
+#[allow(dead_code)]
+pub fn main() {
+    println!("{}", greet());
+}
