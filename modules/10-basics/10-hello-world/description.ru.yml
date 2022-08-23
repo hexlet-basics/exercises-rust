@@ -8,4 +8,8 @@ theory: |
     Hello, World!
   </pre>
 
+instructions: |
 
+  ```rust
+  String::from("Hello, World!")
+  ```
