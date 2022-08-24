@@ -6,3 +6,5 @@ language:
   exercise_filename: index.rs
   exercise_test_filename: test.rs
   name: rust
+  learn_as: first_language
+  progress: in_development
