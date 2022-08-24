@@ -5,3 +5,4 @@ language:
   extension: rs
   exercise_filename: index.rs
   exercise_test_filename: test.rs
+  name: rust
