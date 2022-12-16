@@ -6,7 +6,10 @@ mod tests {
 
     #[test]
     fn test_greet() {
-        assert_eq!(greet(), "Hello, World!");
+        let mut stdout = Vec::new();
+        greet(&mut stdout);
+
+        assert_eq!(stdout, b"Hello, World!\n");
     }
 
 }

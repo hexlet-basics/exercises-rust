@@ -1,10 +1,12 @@
-pub fn greet() -> String {
+use std::io;
+
+pub fn greet(stdout: &mut dyn io::Write) {
     // BEGIN
-    String::from("Hello, World!")
-    //END
+    writeln!(stdout, "Hello, World!").ok();
+    // END
 }
 
 #[allow(dead_code)]
 pub fn main() {
-    println!("{}", greet());
+    greet(&mut io::stdout());
 }
