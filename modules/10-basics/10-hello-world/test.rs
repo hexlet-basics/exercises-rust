@@ -1,21 +1,21 @@
 mod index;
-use std::io;
 
 #[allow(dead_code)]
 pub fn main() {
     use index::greet;
-    greet(&mut io::stdout());
+    greet();
 }
 
 #[cfg(test)]
 mod tests {
-    use index::greet;
     #[test]
-    fn test_greet() {
-        let mut stdout = Vec::new();
-        greet(&mut stdout);
+    fn test() {
+        let cmd = std::process::Command::new("cargo")
+            .arg("run")
+            .output()
+            .expect("`cargo run` works for basic projects");
+        let out = String::from_utf8_lossy(&cmd.stdout);
 
-        assert_eq!(stdout, b"Hello, World!\n");
+        assert_eq!(out, "Hello, world!\n");
     }
-
 }

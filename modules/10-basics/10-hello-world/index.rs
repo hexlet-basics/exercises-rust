@@ -1,7 +1,5 @@
-use std::io;
-
-pub fn greet(stdout: &mut dyn io::Write) {
+pub fn greet() {
     // BEGIN
-    writeln!(stdout, "Hello, World!").ok();
+    println!("Hello, world!");
     // END
 }
