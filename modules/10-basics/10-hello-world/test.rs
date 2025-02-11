@@ -16,6 +16,6 @@ mod tests {
             .expect("`cargo run` works for basic projects");
         let out = String::from_utf8_lossy(&cmd.stdout);
 
-        assert_eq!(out, "Hello, world!\n");
+        assert_eq!(out, "Hello, World!\n");
     }
 }

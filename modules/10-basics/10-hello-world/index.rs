@@ -1,5 +1,5 @@
 pub fn greet() {
     // BEGIN
-    println!("Hello, world!");
+    println!("Hello, World!");
     // END
 }
