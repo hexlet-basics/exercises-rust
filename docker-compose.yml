@@ -3,5 +3,4 @@
 services:
   exercises:
     build: .
-    image: hexletbasics/exercises-rust:cached
     command: make check

@@ -1,7 +1,7 @@
 ---
 
 language:
-  docker_image: "hexletbasics/exercises-rust"
+  docker_image: "ghcr.io/hexlet-basics/exercises-rust"
   extension: rs
   exercise_filename: index.rs
   exercise_test_filename: test.rs
