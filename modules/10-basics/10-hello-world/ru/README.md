@@ -11,4 +11,5 @@ pub fn greet() {
   println!("Hello, World!");
 }
 ```
+
 Функция `println!` принимаем строку `Hello, World!` и выводит её в терминал.
