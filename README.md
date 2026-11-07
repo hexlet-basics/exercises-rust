@@ -10,7 +10,7 @@
 
 ```bash
 # setup
-make
+make compose-build
 # run
 make compose
 # check
@@ -23,6 +23,13 @@ make compose-test
 make compose-code-lint
 make compose-description-lint
 make compose-schema-validate
+
+# local checks with an installed Rust toolchain
+cargo test --all-targets
+make code-lint
+
+# one exercise (from this directory)
+PATH="$PWD/bin:$PATH" make -C modules/10-basics/10-hello-world test
 ```
 
 ##

@@ -1,7 +1,153 @@
 [package]
-name = "exercises-rust" # the name of the package
+name = "exercises-rust"
 version = "0.1.0"
+edition = "2024"
+publish = false
 
 [[bin]]
-name = "10-hello-world"
+name = "10-basics-10-hello-world"
 path = "modules/10-basics/10-hello-world/test.rs"
+
+[[bin]]
+name = "10-basics-15-rust-as-a-second-language"
+path = "modules/10-basics/15-rust-as-a-second-language/test.rs"
+
+[[bin]]
+name = "10-basics-20-bindings"
+path = "modules/10-basics/20-bindings/test.rs"
+
+[[bin]]
+name = "10-basics-30-scalar-types"
+path = "modules/10-basics/30-scalar-types/test.rs"
+
+[[bin]]
+name = "10-basics-40-functions"
+path = "modules/10-basics/40-functions/test.rs"
+
+[[bin]]
+name = "10-basics-50-conditionals"
+path = "modules/10-basics/50-conditionals/test.rs"
+
+[[bin]]
+name = "10-basics-60-loops"
+path = "modules/10-basics/60-loops/test.rs"
+
+[[bin]]
+name = "10-basics-70-tuples"
+path = "modules/10-basics/70-tuples/test.rs"
+
+[[bin]]
+name = "10-basics-80-arrays"
+path = "modules/10-basics/80-arrays/test.rs"
+
+[[bin]]
+name = "10-basics-90-modules"
+path = "modules/10-basics/90-modules/test.rs"
+
+[[bin]]
+name = "20-ownership-10-string"
+path = "modules/20-ownership/10-string/test.rs"
+
+[[bin]]
+name = "20-ownership-20-ownership"
+path = "modules/20-ownership/20-ownership/test.rs"
+
+[[bin]]
+name = "20-ownership-30-borrowing"
+path = "modules/20-ownership/30-borrowing/test.rs"
+
+[[bin]]
+name = "20-ownership-40-mutable-borrowing"
+path = "modules/20-ownership/40-mutable-borrowing/test.rs"
+
+[[bin]]
+name = "20-ownership-50-unicode"
+path = "modules/20-ownership/50-unicode/test.rs"
+
+[[bin]]
+name = "20-ownership-60-string-slices"
+path = "modules/20-ownership/60-string-slices/test.rs"
+
+[[bin]]
+name = "30-data-types-10-structs"
+path = "modules/30-data-types/10-structs/test.rs"
+
+[[bin]]
+name = "30-data-types-20-methods"
+path = "modules/30-data-types/20-methods/test.rs"
+
+[[bin]]
+name = "30-data-types-30-enums"
+path = "modules/30-data-types/30-enums/test.rs"
+
+[[bin]]
+name = "30-data-types-40-match"
+path = "modules/30-data-types/40-match/test.rs"
+
+[[bin]]
+name = "30-data-types-50-option"
+path = "modules/30-data-types/50-option/test.rs"
+
+[[bin]]
+name = "40-errors-10-result"
+path = "modules/40-errors/10-result/test.rs"
+
+[[bin]]
+name = "40-errors-20-parsing"
+path = "modules/40-errors/20-parsing/test.rs"
+
+[[bin]]
+name = "40-errors-30-propagation"
+path = "modules/40-errors/30-propagation/test.rs"
+
+[[bin]]
+name = "50-collections-10-vectors"
+path = "modules/50-collections/10-vectors/test.rs"
+
+[[bin]]
+name = "50-collections-20-slices"
+path = "modules/50-collections/20-slices/test.rs"
+
+[[bin]]
+name = "50-collections-30-iteration"
+path = "modules/50-collections/30-iteration/test.rs"
+
+[[bin]]
+name = "50-collections-40-mutation"
+path = "modules/50-collections/40-mutation/test.rs"
+
+[[bin]]
+name = "50-collections-50-hashmaps"
+path = "modules/50-collections/50-hashmaps/test.rs"
+
+[[bin]]
+name = "50-collections-60-map-entry"
+path = "modules/50-collections/60-map-entry/test.rs"
+
+[[bin]]
+name = "60-abstractions-10-generics"
+path = "modules/60-abstractions/10-generics/test.rs"
+
+[[bin]]
+name = "60-abstractions-20-traits"
+path = "modules/60-abstractions/20-traits/test.rs"
+
+[[bin]]
+name = "60-abstractions-30-trait-bounds"
+path = "modules/60-abstractions/30-trait-bounds/test.rs"
+
+[[bin]]
+name = "60-abstractions-40-lifetimes"
+path = "modules/60-abstractions/40-lifetimes/test.rs"
+
+[[bin]]
+name = "60-abstractions-50-closures"
+path = "modules/60-abstractions/50-closures/test.rs"
+
+[[bin]]
+name = "60-abstractions-60-iterators"
+path = "modules/60-abstractions/60-iterators/test.rs"
+
+[[bin]]
+name = "60-abstractions-70-transformations"
+path = "modules/60-abstractions/70-transformations/test.rs"
